@@ -7,7 +7,41 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: calc(1rem + 3vw);
+  color: white;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: calc(1rem + 1.5vw);
+  color: white;
+}
+
+
+p {
+  font-weight: 500;
+  font-size: calc(0.75rem + 1vw);
+  color: white;
+}
+
+a {
+  font-weight: 500;
+  font-size: calc(0.6rem + 1vw);
+  color: white;
+}
+
+li {
+  font-size: 1.10rem;
 }

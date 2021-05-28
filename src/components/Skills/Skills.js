@@ -3,13 +3,13 @@ import PageHeader from "../PageHeader/PageHeader"
 import coding from './../../img/coding.svg'
 
 
-const listTitleStyle = { fontWeight: 900, color: '#981FE8', marginBottom: '4px' }
+const listTitleStyle = { fontWeight: 900, color: '#981FE8', marginBottom: '4px', fontSize: '1.2rem'}
 
 const backendSkills =
     <ul>
         <li style={listTitleStyle}>BACKEND</li>
-        <li>Ruby | Ruby on Rails | Sinatra</li>
-        <li>C# | ASP.NET Core | ASP.NET MVC</li>
+        <li>Ruby - Rails - Sinatra</li>
+        <li>C# - ASP.NET Core - ASP.NET MVC</li>
     </ul>
 
 const serverLessSkills =
@@ -21,20 +21,22 @@ const serverLessSkills =
 const frontendSkills =
     <ul>
         <li style={listTitleStyle}>FRONTEND</li>
-        <li>ReactJS | HTML | CSS | Redux</li>
+        <li>ReactJS - Redux - HTML</li>
+        <li> CSS </li>
     </ul>
 
 const ideSkills =
     <ul>
         <li style={listTitleStyle}>IDE SKILLS</li>
-        <li>Visual Studio | Visual Studio Code</li>
+        <li>Visual Studio - VSCode</li>
     </ul>
 
 const otherSkills =
     <ul>
         <li style={listTitleStyle}>OTHER SKILLS</li>
-        <li>React Dev Tools | Postman</li>
-        <li>Git | GitHub | JSON | RESTful API</li>
+        <li>React Dev Tools - Postman</li>
+        <li>Git - GitHub - JSON</li>
+        <li> RESTful API </li>
     </ul>
 
 const totalSkills =
@@ -46,7 +48,7 @@ const totalSkills =
 
 const Skills = () => {
     return ( 
-        <div className={design.Skills}>
+        <div className={design.Skills} id="skills">
             <PageHeader title={"My Skills"} />
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
