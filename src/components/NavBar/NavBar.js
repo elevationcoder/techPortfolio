@@ -1,25 +1,41 @@
 import design from './NavBar.module.css'
+import {motion} from 'framer-motion'
 
 const NavBar = () => {
     return ( 
         <div className={design.NavBar}>
             <nav>
                 <ul>
-                    <li>
+                    <motion.li
+                        whileHover={{scale: 1.2}}
+                    >
                         <a href="/">Home</a>
-                    </li>
-                    <li>
+                    </motion.li>
+
+                    <motion.li
+                        whileHover={{scale: 1.2}}
+                    >
                         <a href="/#about">About Me</a>
-                    </li>
-                    <li>
+                    </motion.li>
+
+                    <motion.li
+                        whileHover={{scale: 1.2}}
+                    >
                         <a href="/#skills">Skills</a>
-                    </li>
-                    <li>
+                    </motion.li>
+
+                    <motion.li
+                        whileHover={{scale: 1.2}}
+                    >
                         <a href="/#projects">Projects</a>
-                    </li>
-                    <li>
+                    </motion.li>
+
+                    <motion.li
+                        whileHover={{scale: 1.2}}
+                    >
                         <a href="/#contact">Contact</a>
-                    </li>
+                    </motion.li>
+
                 </ul>
             </nav>
         </div>

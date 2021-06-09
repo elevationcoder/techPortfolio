@@ -2,14 +2,18 @@ import design from './Projects.module.css'
 import PageHeader from './../PageHeader/PageHeader'
 import myHaul from './../../img/myHaulMoment.jpg'
 import flockTracker from './../../img/2020-06-16 15-47-01_Moment.jpg'
+import dataGem from './../../img/Ruby_Data_Gem_Moment.jpg'
 import background from './../../img/cloudBackground.jpg'
+import {motion} from 'framer-motion'
 
 const playButtonSvg = (url) => {
     return (
-        <div className={design.PlayButton}
+        <motion.div
+        whileHover={{scale: 1.3, fill: 'white'}} 
+        className={design.PlayButton}
         onClick={(e) => window.open(url, "_blank").focus}
         >
-        <svg xmlns="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg fill='purple' xmlns="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60">
 <g>
 	<path d="M45.563,29.174l-22-15c-0.307-0.208-0.703-0.231-1.031-0.058C22.205,14.289,22,14.629,22,15v30
@@ -21,7 +25,7 @@ const playButtonSvg = (url) => {
 </svg>
         
 
-        </div>
+        </motion.div>
     )
 }
 
@@ -39,9 +43,13 @@ const projectVideo = (url, thumbnail, desc) => {
     )
 }
 
-const myHaulDescription = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae explicabo sint sequi. Magnam rerum laudantium non aperiam minus illo voluptas?" 
-const flockTrackerDescription = "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero atque officia esse magnam tempore facere error nemo consequatur voluptates beatae?"
+const myHaulDescription = "MyHaul is an application that I designed that is used to help local shippers find independent contractors for same day and distance delivery. It is built using Rails MVC and is implemented with Facebook OAuth for user signin and registry. It uses RESTful practices for client-side navigation as well as the BCrypt gem and cookies and sessions to store user information and server-side authentication." 
+const flockTrackerDescription = "Hatch Tracker is another application I designed by myself that lets you track the incubation period of poultry egg batches from various flocks of farm birds. I built this application using Ruby on Rails for the data storage, which I used PostgreSQL and used React for the UI. I utilized the React-Router library for client-side routing and Redux for scalabilty."
+const dataGemDescription = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis, veniam dicta nulla sapiente ex blanditiis at praesentium natus. Voluptatibus?"
 
+const myHaulUrl = "https://www.youtube.com/watch?v=PAv_PqNHzQM"
+const flockTrackerUrl = "https://www.youtube.com/watch?v=PijCOTJGsm8"
+const dataGemUrl = "https://www.youtube.com/watch?v=LxgS3yhHdxM&t=15s"
 
 const Projects = () => {
     return ( 
@@ -58,8 +66,9 @@ const Projects = () => {
                         </p>
                     </div>
                     <div className={design.Videos}>
-                    {projectVideo("https://drive.google.com/file/d/14Oqj9C_x2Tf_AGo5bVdyKRd9gRAZrUXh/view?usp=sharing", myHaul, myHaulDescription)}
-                    {projectVideo("https://drive.google.com/file/d/1PgaN-ZSafxiNlyX9XgfkraF4wmAERszB/view?usp=sharing", flockTracker, flockTrackerDescription)}
+                    {projectVideo(myHaulUrl, myHaul, myHaulDescription)}
+                    {projectVideo(flockTrackerUrl, flockTracker, flockTrackerDescription)}
+                    {projectVideo(dataGemUrl, dataGem, dataGemDescription)}
                     </div>
                 </div>
         </div>

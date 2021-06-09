@@ -1,6 +1,7 @@
 import PageHeader from '../PageHeader/PageHeader'
 import design from './About.module.css'
 import me from './../../img/Profile1-pic.JPG'
+import {motion} from 'framer-motion'
 
 const About = () => {
     return ( 
@@ -23,7 +24,12 @@ const About = () => {
                     </p>
                 </div>
                 <div className={design.Photo}>
-                    <img className={design.Me} src={me} alt="myProfilePic"></img>
+                    <motion.img className={design.Me} src={me} alt="myProfilePic"
+                        whileHover={{scale: 1.3, x: -30}}
+                        initial={{opacity: 0, scale: 0, x: 100}}
+                        animate={{opacity: 1, scale: 1, x: 0}}
+                        transition={{duration: .5}}
+                    ></motion.img>
                 </div>
             </div>
         </div>

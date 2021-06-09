@@ -1,6 +1,7 @@
 import design from './Skills.module.css'
 import PageHeader from "../PageHeader/PageHeader"
 import coding from './../../img/coding.svg'
+import {motion} from 'framer-motion'
 
 
 const listTitleStyle = { fontWeight: 900, color: '#981FE8', marginBottom: '4px', fontSize: '1.2rem'}
@@ -61,9 +62,11 @@ const Skills = () => {
                 <img className={design.Coding} src={coding} alt="coding" />
                 {totalSkills.map(skills => {
                     return (
-                        <div className={design.List}>
+                        <motion.div className={design.List}
+                            whileHover={{scale: 1.3}}
+                        >
                             {skills}
-                        </div>
+                        </motion.div>
                     )
                 })}
             </div>

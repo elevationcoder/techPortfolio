@@ -1,5 +1,6 @@
 import { FaYoutube, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import design from './Contact.module.css'
+import {motion} from 'framer-motion'
 
 const youtubeUrl = "https://www.youtube.com/channel/UCUXp0NCMdAXvoAzu6TJtCuw"
 const githubUrl ="https://github.com/elevationcoder?tab=repositories"
@@ -12,20 +13,43 @@ const handleUrl = (url) => {
 const Contact = () => {
     return ( 
         <div className={design.Contact} id="contact">
-            <h1>FRAMER-MOTION</h1>
             <div className={design.ContactIcons}>
-                <FaYoutube color="white" size="30px" style={{padding: "1%"}} 
-                    onClick={handleUrl(youtubeUrl)}
-                />
-                <FaGithub color="white" size="30px" style={{padding: "1%"}} 
-                    onClick={handleUrl(githubUrl)}
-                />
-                <FaLinkedin color="white" size="30px" style={{padding: "1%"}} 
-                    onClick={handleUrl(linkedInUrl)}
-                />
-                <FaTwitter color="white" size="30px" style={{padding: "1%"}} 
-                    onClick={handleUrl(twitterUrl)}
-                />
+                <motion.div
+                    style={{paddingRight: '10px'}}
+                    whileHover={{scale: 1.3, y: -5}}
+                >
+                    
+                    <FaYoutube color="white" size="30px" style={{padding: "1%"}} 
+                        onClick={handleUrl(youtubeUrl)}
+                    />
+                </motion.div>
+
+                <motion.div
+                    style={{paddingRight: '10px'}}
+                    whileHover={{scale: 1.3, y: -5}}
+                >
+                    <FaGithub color="white" size="30px" style={{padding: "1%"}} 
+                        onClick={handleUrl(githubUrl)}
+                    />
+                </motion.div>
+
+                <motion.div
+                    style={{paddingRight: '10px'}}
+                    whileHover={{scale: 1.3, y: -5}}
+                >
+                    <FaLinkedin color="white" size="30px" style={{padding: "1%"}} 
+                        onClick={handleUrl(linkedInUrl)}
+                    />
+                </motion.div>
+
+                <motion.div
+                    style={{paddingRight: '10px'}}
+                    whileHover={{scale: 1.3, y: -5}}
+                >
+                    <FaTwitter color="white" size="30px" style={{padding: "1%"}} 
+                        onClick={handleUrl(twitterUrl)}
+                    />
+                </motion.div>
             </div>
             
         </div>
