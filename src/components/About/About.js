@@ -21,7 +21,7 @@ const About = () => {
                         A little over a year ago I found myself at a crossroads in my career and I had to choose whether to 
                         continue my career in a place where growth was all but exhausted or take a chance and go for something
                         that I enjoy and could potentially better family's lives. I decided the latter because although
-                        there is an inherent risk leaving a position you know and and can rely on, making the career change
+                        there is an inherent risk leaving a position you know and can rely on, making the career change
                         put my future in my hands and you can become more successful when you are free to make the decisions that are right for
                         you.
                     </p>

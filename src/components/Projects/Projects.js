@@ -3,7 +3,7 @@ import PageHeader from './../PageHeader/PageHeader'
 import myHaul from './../../img/myHaulMoment.jpg'
 import flockTracker from './../../img/2020-06-16 15-47-01_Moment.jpg'
 import dataGem from './../../img/Ruby_Data_Gem_Moment.jpg'
-import background from './../../img/cloudBackground.jpg'
+import background from './../../img/eclipseBackground.jpg'
 import {motion} from 'framer-motion'
 
 const playButtonSvg = (url) => {
