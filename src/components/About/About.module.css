@@ -20,6 +20,13 @@
     margin-right: 3%;
     padding-top: 2%;
 }
+.AboutMe .Container .AboutParagraph {
+    color: white;
+    width: 200%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+}
 
 .AboutMe .Container .Text h2 {
     font-weight: 900;
@@ -30,6 +37,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50%;
+    
 }
 
 .AboutMe .Container .Photo .Me {
