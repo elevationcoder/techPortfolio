@@ -1,6 +1,6 @@
 import PageHeader from '../PageHeader/PageHeader'
 import design from './About.module.css'
-import me from './../../img/Profile1-pic.JPG'
+import me from './../../img/Profile1-pic.jpg'
 import {motion} from 'framer-motion'
 
 const About = () => {
