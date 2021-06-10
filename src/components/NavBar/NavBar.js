@@ -1,6 +1,8 @@
 import design from './NavBar.module.css'
 import {motion} from 'framer-motion'
 
+
+// const resumeLink = "https://drive.google.com/file/d/1qL5BQ5WwGTKkBXPGWWMP-7oQLAoDElkx/view?usp=sharing"
 const NavBar = () => {
     return ( 
         <div className={design.NavBar}>
@@ -15,7 +17,7 @@ const NavBar = () => {
                     <motion.li
                         whileHover={{scale: 1.2}}
                     >
-                        <a href="/#about">About Me</a>
+                        <a href="/#about">Get To Know Me</a>
                     </motion.li>
 
                     <motion.li
@@ -35,7 +37,7 @@ const NavBar = () => {
                     >
                         <a href="/#contact">Contact</a>
                     </motion.li>
-
+                    
                 </ul>
             </nav>
         </div>

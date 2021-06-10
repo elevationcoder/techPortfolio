@@ -32,6 +32,12 @@ const ideSkills =
         <li>Visual Studio - VSCode</li>
     </ul>
 
+const gameDevSkills = 
+    <ul>
+        <li style={listTitleStyle}>GAME DEVELOPMENT</li>
+        <li>Unity 2D/3D - Roblox Studio</li>
+    </ul>
+
 const otherSkills =
     <ul>
         <li style={listTitleStyle}>OTHER SKILLS</li>
@@ -42,7 +48,7 @@ const otherSkills =
 
 const totalSkills =
     [
-        backendSkills, serverLessSkills, frontendSkills, ideSkills, otherSkills
+        frontendSkills, backendSkills, ideSkills, serverLessSkills, gameDevSkills, otherSkills
     ]
 
 
@@ -52,10 +58,13 @@ const Skills = () => {
         <div className={design.Skills} id="skills">
             <PageHeader title={"My Skills"} />
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Facilis dignissimos quisquam ad eius! Esse, accusantium 
-                accusamus vitae inventore enim laboriosam, voluptates 
-                impedit non in incidunt sequi exercitationem dolor similique maiores?
+                My programming skills are a mix of professional and solo training.
+                I was trained from Flatiron School in Ruby, Sinatra, Ruby on Rails, JavaScript, React and Redux. 
+                The languages I learned myself post-education are C#, 
+                ASP.NET Core, .NET and Unity. I always strive to learn anything I can, continued knowledge 
+                is something I strive for everyday and while it's important to learn new things it is equally important
+                to keep on the knowledge you already possess. Learning from what you know and do not know forms
+                the ultimate outline for success.  
             </p>
 
             <div className={design.Container}>

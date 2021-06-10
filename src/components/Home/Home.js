@@ -10,7 +10,7 @@ const Home = () => {
         <div className={design.Home}>
             <WaveLine />
             <div className={design.Container}>
-                <h1 className={design.Hello}>Hello!</h1>
+                <h1 className={design.Hello}>Hello, My name is Ian Marrs!</h1>
                 <h2>Welcome to my Portfolio!</h2>
             </div>
             <motion.img className={design.Code} src={code} alt="code"

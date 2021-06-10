@@ -1,4 +1,4 @@
-import { FaYoutube, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaYoutube, FaGithub, FaTwitter, FaLinkedin, FaDochub } from "react-icons/fa";
 import design from './Contact.module.css'
 import {motion} from 'framer-motion'
 
@@ -6,6 +6,7 @@ const youtubeUrl = "https://www.youtube.com/channel/UCUXp0NCMdAXvoAzu6TJtCuw"
 const githubUrl ="https://github.com/elevationcoder?tab=repositories"
 const twitterUrl = "https://twitter.com/iantmarrs"
 const linkedInUrl = "https://www.linkedin.com/in/ian-marrs134/"
+const resumeLink = "https://dochub.com/ian-t-marrs/4DeM0oWKm4jeo7ARXyLgP3/techresume-2021-pdf?dt=pgjrf5iG-rpTo3YPzuy8"
 
 const handleUrl = (url) => {
     return () => window.open(url, "_blank")
@@ -48,6 +49,14 @@ const Contact = () => {
                 >
                     <FaTwitter color="white" size="30px" style={{padding: "1%"}} 
                         onClick={handleUrl(twitterUrl)}
+                    />
+                </motion.div>
+                <motion.div
+                    style={{paddingRight: '10px'}}
+                    whileHover={{scale: 1.3, y: -5}}
+                >
+                    <FaDochub color="white" size="30px" style={{padding: "1%"}} 
+                        onClick={handleUrl(resumeLink)}
                     />
                 </motion.div>
             </div>

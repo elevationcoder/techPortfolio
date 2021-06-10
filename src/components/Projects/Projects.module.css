@@ -33,7 +33,7 @@
     width: 100%;
 }
 
-.Projects .Videos .VideoContainer {
+.Projects .Videos .VideoContainer{
     display: flex;
     background: black;
     margin-bottom: 5%;
@@ -42,12 +42,18 @@
     border-radius: 10px;
     box-shadow: 0px 0px 5px 1px white;
 }
+.Projects .Videos .VideoContainer p{
+    font-size: calc(0.40rem + 1vw);
+}
 
-.Projects .VideoContainer .Text {
+.Projects .VideoContainer .Text{
     padding-left: 2.5%;
     padding-right: 2.5%;
     width: 45%;
 }
+/* .Projects .VideoContainer .Text .HVSPJ p{
+    font-size: 20px;
+} */
 
 .Projects .VideoContainer .Thumbnail {
     padding-left: 2.5%;

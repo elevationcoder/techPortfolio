@@ -45,7 +45,7 @@ const projectVideo = (url, thumbnail, desc) => {
 
 const myHaulDescription = "MyHaul is an application that I designed that is used to help local shippers find independent contractors for same day and distance delivery. It is built using Rails MVC and is implemented with Facebook OAuth for user signin and registry. It uses RESTful practices for client-side navigation as well as the BCrypt gem and cookies and sessions to store user information and server-side authentication." 
 const flockTrackerDescription = "Hatch Tracker is another application I designed by myself that lets you track the incubation period of poultry egg batches from various flocks of farm birds. I built this application using Ruby on Rails for the data storage, which I used PostgreSQL and used React for the UI. I utilized the React-Router library for client-side routing and Redux for scalabilty."
-const dataGemDescription = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quis, veniam dicta nulla sapiente ex blanditiis at praesentium natus. Voluptatibus?"
+const dataGemDescription = "Cosmic Odyssey is an information based CLI application using Ruby. I got all the facts used in the application by scraping them from a website using the Nokogiri gem. It is even published on the Ruby Gems website for public use."
 
 const myHaulUrl = "https://www.youtube.com/watch?v=PAv_PqNHzQM"
 const flockTrackerUrl = "https://www.youtube.com/watch?v=PijCOTJGsm8"
@@ -59,10 +59,17 @@ const Projects = () => {
                 <div className={design.ProjectContent}>
                     <div className={design.Paragraph}>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Atque quibusdam voluptatum assumenda consequatur ducimus ea 
-                            impedit qui cumque commodi autem aliquam incidunt culpa 
-                            deserunt quos, praesentium id delectus dolore repudiandae.
+                            All of the projects listed below are original in thought and execution.
+                            I was inspired to create these applications based on personal experience 
+                            and the trials that certain scenarios bring. I created the MyHaul application 
+                            to help local shipping companies quickly find independent contractors to make timely deliveries.
+                            The Hatch Tracker application was created to help me keep track of various poultry egg 
+                            batches ready for incubation. It helps me keep record of that various incubations stats 
+                            and in turn helps me make adjustments for future egg batches.
+
+                            My life hobbies as well as past, current and future occupations are the driving forces behind
+                            my passion for programming and if I can make a difference in at least one persons life from one of my
+                            applications then every hard earned focus hour is worth it.
                         </p>
                     </div>
                     <div className={design.Videos}>
