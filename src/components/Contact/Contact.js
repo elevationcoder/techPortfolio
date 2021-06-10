@@ -6,7 +6,7 @@ const youtubeUrl = "https://www.youtube.com/channel/UCUXp0NCMdAXvoAzu6TJtCuw"
 const githubUrl ="https://github.com/elevationcoder?tab=repositories"
 const twitterUrl = "https://twitter.com/iantmarrs"
 const linkedInUrl = "https://www.linkedin.com/in/ian-marrs134/"
-const resumeLink = "https://dochub.com/ian-t-marrs/4DeM0oWKm4jeo7ARXyLgP3/techresume-2021-pdf?dt=pgjrf5iG-rpTo3YPzuy8"
+const resumeLink = "https://dochub.com/ian-t-marrs/275eAYrVo6prvO6KzXnBNQ/techresume-2021-pdf?dt=CK-5pFdu9pMgTcjyTXB6"
 
 const handleUrl = (url) => {
     return () => window.open(url, "_blank")
