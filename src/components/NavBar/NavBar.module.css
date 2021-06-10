@@ -29,3 +29,12 @@
 .NavBar a:hover {
     border-bottom: 5px solid #8C1CD1;
 }
+
+@media (max-width: 500px) {
+    .NavBar nav ul {
+        width: auto;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+}

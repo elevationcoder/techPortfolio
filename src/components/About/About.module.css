@@ -66,4 +66,19 @@
     .AboutMe .Container .Photo {
         width: 70%;
     }
+
+    .AboutMe .Container .SecondText {
+        color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: 3%;
+        padding-top: 2%;
+    }
+    .AboutMe .Container .AboutParagraph {
+        color: white;
+        width: 100%;
+        margin-left: auto;
+        margin-right: 3%;
+        padding-top: 2%;
+    }
 }
