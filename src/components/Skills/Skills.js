@@ -63,7 +63,7 @@ const Skills = () => {
                 The languages I learned myself post-education are C#, 
                 ASP.NET Core, .NET and Unity. I always strive to learn anything I can, continued knowledge 
                 is something I strive for everyday and while it's important to learn new things it is equally important
-                to keep on the knowledge you already possess. Learning from what you know and do not know forms
+                to keep the knowledge you already possess. Learning from what you know and do not know forms
                 the ultimate outline for success.  
             </p>
 

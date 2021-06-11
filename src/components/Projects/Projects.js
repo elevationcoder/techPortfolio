@@ -64,8 +64,8 @@ const Projects = () => {
                             and the trials that certain scenarios bring. I created the MyHaul application 
                             to help local shipping companies quickly find independent contractors to make timely deliveries.
                             The Hatch Tracker application was created to help me keep track of various poultry egg 
-                            batches ready for incubation. It helps me keep record of that various incubations stats 
-                            and in turn helps me make adjustments for future egg batches.
+                            batches ready for incubation. It helps me keep record of the various incubations stats 
+                            and in turn it helps me make adjustments for future egg batches.
 
                             My life hobbies as well as past, current and future occupations are the driving forces behind
                             my passion for programming and if I can make a difference in at least one persons life from one of my
