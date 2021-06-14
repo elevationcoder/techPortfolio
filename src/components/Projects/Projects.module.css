@@ -6,8 +6,8 @@
 
 .Projects .Background {
     position: absolute;
-    padding-top: 20%;
-    height: 50%;
+    padding-top: 0%;
+    height: 70%;
     width: 100%;
     right: 0;
     z-index: 0;
@@ -30,7 +30,7 @@
 }
 
 .Projects .VideoContainer .Thumbnail img {
-    max-width: 489px;
+    max-width: 600px;
     width: 100%;
 }
 
@@ -67,7 +67,7 @@
 .Projects .VideoContainer .Thumbnail .PlayButton {
     position: absolute;
     width: 24%;
-    left: 39%;
+    left: 25%;
     top: 20%;
     cursor: pointer;
 }
@@ -100,6 +100,31 @@
         width: 100%;
         right: 0;
         z-index: 0;
+    }
+    
+}
+@media (max-width: 1400px){
+    .Projects .Videos .Text{
+        width: 90%;
+    }
+    .Projects .Videos .Thumbnail{
+        width: 90%;
+    }
+
+    .Projects .Background {
+        position: absolute;
+        padding-top: 18%;
+        height: 50%;
+        width: 100%;
+        right: 0;
+        z-index: 0;
+    }
+    .Projects .VideoContainer .Thumbnail .PlayButton {
+        position: absolute;
+        width: 24%;
+        left: 39%;
+        top: 27%;
+        cursor: pointer;
     }
     
 }
